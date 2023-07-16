@@ -7,7 +7,7 @@
     },
     "main": "/lib/index.js",
     "types": "/lib/index.d.js",
-    "module": "./lib/index.mjs",
+    "module": "/lib/index.mjs",
     "type": "module",
     "exports": {
         "import": "./lib/index.mjs",

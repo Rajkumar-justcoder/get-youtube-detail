@@ -1,6 +1,6 @@
 {
     "name": "get-youtube-detail",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A lib for getting youtube title,videoid,channelid,and channel/video description.",
     "publishConfig": {
         "access": "public"

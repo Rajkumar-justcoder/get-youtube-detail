@@ -1,0 +1,45 @@
+{
+    "name": "get-youtube-detail",
+    "version": "1.0.0",
+    "description": "A lib for getting youtube title,videoid,channelid,and channel/video description.",
+    "publishConfig": {
+        "access": "public"
+    },
+    "main": "./lib/index.js",
+    "types": "index.d.js",
+    "module": "./lib/index.mjs",
+    "exports": {
+        "import": "./lib/index.js",
+        "require": "./lib/index.cjs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rajkumar-justcoder/get-youtube-detail"
+    },
+    "scripts": {
+        "postbuild": " tsup src/index.ts --dts-resolve",
+        "dev": "tsup src/index.ts --watch",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "lib"
+    ],
+    "keywords": [
+        "youtube",
+        "video",
+        "get youtube data",
+        "channel",
+        "yt",
+        "youtube detail"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cheerio": "1.0.0-rc.12"
+    },
+    "devDependencies": {
+        "tsup": "^7.1.0",
+        "typescript": "^5.1.6"
+    }
+}

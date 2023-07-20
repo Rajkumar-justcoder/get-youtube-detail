@@ -25,11 +25,10 @@ A lib for getting youtube title,videoid,channelid,and channel/video description.
 
 Data is returned on the basic of url and type selected 
 
-
 ```javascript
 import {getYoutubeData} from 'get-youtube-detail'
 
-  const data = getYoutubeData({ url: 'your yt url here', checkType:"select type" }
+  const data = await getYoutubeData({ url: 'your yt url here', checkType:"select type" }
 
 ```
 Types are 
